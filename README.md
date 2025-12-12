@@ -5,7 +5,7 @@ Ce projet a été réaliser dans le cadre de mon Master pour démontrer la manip
 
 ## 📸 Aperçu
 
-![Mon Tracker de Révisions](images/demo-tracker.png)
+![Mon Tracker de Révisions](demo-tracker.png)
 
 ## 💫 Fonctionnalités
 
