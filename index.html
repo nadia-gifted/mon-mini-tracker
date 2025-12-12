@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>My Study Tracker</title>
+    <link rel="stylesheet"
+    href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>🎓My Study Tracker</h1>
+        </header>
+
+        <form id="task-form">
+            <input type="text" id="task-title" placeholder="Ajouter une nouvelle matière ici..." required>
+            <button type="submit">Ajouter</button>
+        </form>
+
+        <section id ="task-columns"><div class="column" id="todo-column">
+            <h3>À réviser</h3>
+        </div>
+        <div class="column" id="inprogress-column">
+            <h3>En cours</h3>
+        </div>
+    <div class="column" id="done-column">
+        <h3>Terminé</h3>
+    </div></section>
+    <script src="script.js"></script>
+    </body>
+</html>

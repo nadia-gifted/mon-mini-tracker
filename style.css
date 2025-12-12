@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(218, 161, 237); 
+    padding: 20px;
+}
+
+/*Régle pour le titre principal */
+h1 {
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 30px;
+    color: #333;
+}
+#task-form {
+    display: flex;            /* Active le mode flexible */
+    justify-content: center;  /* C'est LA commande magique pour centrer les éléments Flex */
+    gap: 10px;                /* Garde l'espace entre le champ et le bouton */
+    margin-bottom: 30px;      /* Garde l'espace en dessous */
+}
+
+
+#task-columns input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#task-columns {
+    display: flex;
+    gap: 20px; /* Espace entre les colonnes */
+}
+
+.column {
+    flex: 1; /* Les colonnes prennent la même largeur */
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.column h3 {
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+/* Style de base pour une carte de tâche (sera crée en JS) */
+.task-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.task-card button {
+    margin-left: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-size: 0,8em;
+}
+/* Style pour le bouton Ajouter */
+#task-form button {
+    background-color: #4a90e2; /* Change ce code couleur si tu veux */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#task-form button:hover {
+    background-color: #357abd; /* Couleur au survol de la souris */
+}
+/* --- Couleurs des colonnes --- */
+
+/* Colonne "À Faire" (Un rouge/rose clair) */
+#todo-column {
+    background-color: #ffcdd2; 
+}
+
+/* Colonne "En Cours" (Un jaune/orange clair) */
+#inprogress-column {
+    background-color: #fff9c4; 
+}
+
+/* Colonne "Terminé" (Un vert clair) */
+#done-column {
+    background-color: #c8e6c9; 
+}
