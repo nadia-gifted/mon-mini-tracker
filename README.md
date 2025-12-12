@@ -1,5 +1,5 @@
 # 🎓 Mon Tracker de Révisions
-Une application web interactive conçu pour organiser, plannifier et suivre la progression de mes révisions d'examens de manière visuelle.
+Une application web interactive conçu pour organiser, planifier et suivre la progression de mes révisions d'examens de manière visuelle.
 
 Ce projet a été réaliser dans le cadre de mon Master pour démontrer la manipulation du DOM et la gestion d'états en JavaScript Vanilla (sans framework), appliquée à un cas d'usage réel.
 
